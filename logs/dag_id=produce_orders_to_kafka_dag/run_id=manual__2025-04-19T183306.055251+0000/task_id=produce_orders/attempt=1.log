@@ -1,0 +1,27 @@
+[2025-04-19T18:33:08.730+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: produce_orders_to_kafka_dag.produce_orders manual__2025-04-19T18:33:06.055251+00:00 [queued]>
+[2025-04-19T18:33:08.742+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: produce_orders_to_kafka_dag.produce_orders manual__2025-04-19T18:33:06.055251+00:00 [queued]>
+[2025-04-19T18:33:08.743+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-04-19T18:33:08.762+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): produce_orders> on 2025-04-19 18:33:06.055251+00:00
+[2025-04-19T18:33:08.769+0000] {standard_task_runner.py:60} INFO - Started process 13337 to run task
+[2025-04-19T18:33:08.775+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'produce_orders_to_kafka_dag', 'produce_orders', 'manual__2025-04-19T18:33:06.055251+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/produce_orders_to_kafka_dag.py', '--cfg-path', '/tmp/tmpb3dr25tb']
+[2025-04-19T18:33:08.780+0000] {standard_task_runner.py:88} INFO - Job 4: Subtask produce_orders
+[2025-04-19T18:33:08.806+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.11/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-19T18:33:08.865+0000] {task_command.py:423} INFO - Running <TaskInstance: produce_orders_to_kafka_dag.produce_orders manual__2025-04-19T18:33:06.055251+00:00 [running]> on host b254abd39808
+[2025-04-19T18:33:08.973+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='chethan' AIRFLOW_CTX_DAG_ID='produce_orders_to_kafka_dag' AIRFLOW_CTX_TASK_ID='produce_orders' AIRFLOW_CTX_EXECUTION_DATE='2025-04-19T18:33:06.055251+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-19T18:33:06.055251+00:00'
+[2025-04-19T18:33:08.978+0000] {conn.py:380} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+[2025-04-19T18:33:08.979+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2025-04-19T18:33:08.981+0000] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+[2025-04-19T18:33:09.087+0000] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2025-04-19T18:33:09.088+0000] {conn.py:1268} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2025-04-19T18:33:09.094+0000] {logging_mixin.py:188} INFO - Sent order: {'order_id': 1, 'customer': 'Alice', 'total': 25.5}
+[2025-04-19T18:33:09.096+0000] {logging_mixin.py:188} INFO - Sent order: {'order_id': 2, 'customer': 'Bob', 'total': 12.0}
+[2025-04-19T18:33:09.097+0000] {conn.py:380} INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: connecting to kafka:9092 [('172.18.0.4', 9092) IPv4]
+[2025-04-19T18:33:09.098+0000] {logging_mixin.py:188} INFO - Sent order: {'order_id': 3, 'customer': 'Charlie', 'total': 42.3}
+[2025-04-19T18:33:09.099+0000] {conn.py:410} INFO - <BrokerConnection node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.4', 9092)]>: Connection complete.
+[2025-04-19T18:33:09.100+0000] {conn.py:919} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+[2025-04-19T18:33:09.106+0000] {kafka.py:483} INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+[2025-04-19T18:33:09.107+0000] {conn.py:919} INFO - <BrokerConnection node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.4', 9092)]>: Closing connection. 
+[2025-04-19T18:33:09.108+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-04-19T18:33:09.118+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=produce_orders_to_kafka_dag, task_id=produce_orders, execution_date=20250419T183306, start_date=20250419T183308, end_date=20250419T183309
+[2025-04-19T18:33:09.148+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-19T18:33:09.169+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

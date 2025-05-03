@@ -1,0 +1,28 @@
+[2025-04-11T23:30:35.409+0000] {processor.py:157} INFO - Started process (PID=2988) to work on /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:30:35.410+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/kafka_producer_dag.py for tasks to queue
+[2025-04-11T23:30:35.411+0000] {logging_mixin.py:154} INFO - [2025-04-11T23:30:35.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:30:35.732+0000] {logging_mixin.py:154} INFO - [2025-04-11T23:30:35.727+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/kafka_producer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kafka_producer_dag.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2025-04-11T23:30:35.734+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:30:35.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kafka_producer_dag.py took 0.343 seconds
+[2025-04-11T23:31:06.465+0000] {processor.py:157} INFO - Started process (PID=2998) to work on /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:31:06.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/kafka_producer_dag.py for tasks to queue
+[2025-04-11T23:31:06.467+0000] {logging_mixin.py:154} INFO - [2025-04-11T23:31:06.467+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:31:06.778+0000] {logging_mixin.py:154} INFO - [2025-04-11T23:31:06.775+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/kafka_producer_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kafka_producer_dag.py", line 5, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2025-04-11T23:31:06.779+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/kafka_producer_dag.py
+[2025-04-11T23:31:06.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kafka_producer_dag.py took 0.329 seconds

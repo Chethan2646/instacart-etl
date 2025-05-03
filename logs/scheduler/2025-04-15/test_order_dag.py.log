@@ -1,0 +1,809 @@
+[2025-04-15T22:15:42.616+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:15:42.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:15:42.619+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:42.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:15:42.988+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:15:43.229+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.228+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-04-15T22:15:43.243+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.242+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-04-15T22:15:43.254+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.253+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-04-15T22:15:43.255+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:15:43.266+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.266+0000] {dag.py:2963} INFO - Creating ORM DAG for read_orders_csv_dag
+[2025-04-15T22:15:43.268+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:15:43.268+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:15:43.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.683 seconds
+[2025-04-15T22:16:13.875+0000] {processor.py:157} INFO - Started process (PID=224) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:13.878+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:16:13.881+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:13.879+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:14.170+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:14.312+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:14.312+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:16:14.321+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:14.321+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:16:14.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.469 seconds
+[2025-04-15T22:16:44.537+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:44.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:16:44.539+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:44.539+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:45.071+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:16:45.157+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:45.157+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:16:45.171+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:16:45.170+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:16:45.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.668 seconds
+[2025-04-15T22:17:15.651+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:15.652+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:17:15.653+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:15.653+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:15.958+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:15.994+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:15.993+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:17:16.014+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:16.014+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:17:16.045+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.397 seconds
+[2025-04-15T22:17:46.100+0000] {processor.py:157} INFO - Started process (PID=331) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:46.101+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:17:46.103+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:46.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:46.403+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:17:46.426+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:46.426+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:17:46.438+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:17:46.438+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:17:46.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.490 seconds
+[2025-04-15T22:18:16.706+0000] {processor.py:157} INFO - Started process (PID=365) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:16.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:18:16.708+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:16.707+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:16.955+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:16.976+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:16.976+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:18:17.097+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:17.097+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:18:17.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.410 seconds
+[2025-04-15T22:18:47.583+0000] {processor.py:157} INFO - Started process (PID=401) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:47.584+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:18:47.585+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:47.585+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:47.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:18:47.827+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:47.827+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:18:47.936+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:18:47.936+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:18:47.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.376 seconds
+[2025-04-15T22:19:18.162+0000] {processor.py:157} INFO - Started process (PID=435) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:18.163+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:19:18.164+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:18.164+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:18.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:18.553+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:18.552+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:19:18.561+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:18.561+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:19:18.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.429 seconds
+[2025-04-15T22:19:48.681+0000] {processor.py:157} INFO - Started process (PID=469) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:48.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:19:48.684+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:48.683+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:48.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:19:49.015+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:49.015+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:19:49.023+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:19:49.023+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:19:49.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.362 seconds
+[2025-04-15T22:20:19.447+0000] {processor.py:157} INFO - Started process (PID=500) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:19.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:20:19.449+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:19.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:19.678+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:19.701+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:19.700+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:20:19.714+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:19.714+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:20:19.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.288 seconds
+[2025-04-15T22:20:50.650+0000] {processor.py:157} INFO - Started process (PID=534) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:50.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:20:50.652+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:50.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:50.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:20:50.888+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:50.888+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:20:50.899+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:20:50.899+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:20:51.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.438 seconds
+[2025-04-15T22:21:21.470+0000] {processor.py:157} INFO - Started process (PID=568) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:21.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:21:21.474+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:21.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:21.897+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:21.929+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:21.928+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:21:22.122+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:22.121+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:21:22.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.688 seconds
+[2025-04-15T22:21:52.228+0000] {processor.py:157} INFO - Started process (PID=599) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:52.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:21:52.230+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:52.230+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:52.443+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:21:52.600+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:52.600+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:21:52.610+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:21:52.610+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:21:52.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.399 seconds
+[2025-04-15T22:22:26.071+0000] {processor.py:157} INFO - Started process (PID=636) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:22:26.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:22:26.080+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:22:26.079+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:36:41.890+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:36:41.964+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:36:41.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:36:42.022+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:36:42.022+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:36:42.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 1.141 seconds
+[2025-04-15T22:37:12.864+0000] {processor.py:157} INFO - Started process (PID=669) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:12.865+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:37:12.866+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:12.866+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:13.330+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:13.351+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:13.350+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:37:13.360+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:13.360+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:37:13.397+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.535 seconds
+[2025-04-15T22:37:44.743+0000] {processor.py:157} INFO - Started process (PID=721) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:44.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:37:44.746+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:44.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:45.167+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:37:45.195+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:45.194+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:37:45.214+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:37:45.214+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:37:45.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.651 seconds
+[2025-04-15T22:38:15.579+0000] {processor.py:157} INFO - Started process (PID=762) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:15.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:38:15.581+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:15.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:15.821+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:15.843+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:15.843+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:38:15.970+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:15.969+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:38:15.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.411 seconds
+[2025-04-15T22:38:46.279+0000] {processor.py:157} INFO - Started process (PID=796) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:46.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:38:46.283+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:46.282+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:46.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:38:46.805+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:46.804+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:38:46.827+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:38:46.827+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:38:46.862+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.587 seconds
+[2025-04-15T22:39:17.028+0000] {processor.py:157} INFO - Started process (PID=827) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:17.029+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:39:17.030+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:17.030+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:17.327+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:17.530+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:17.529+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:39:17.540+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:17.540+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:39:17.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.533 seconds
+[2025-04-15T22:39:47.998+0000] {processor.py:157} INFO - Started process (PID=864) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:47.999+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:39:48.000+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:47.999+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:48.317+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:39:48.331+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:48.331+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:39:48.340+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:39:48.340+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:39:48.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.361 seconds
+[2025-04-15T22:40:18.632+0000] {processor.py:157} INFO - Started process (PID=898) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:18.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:40:18.635+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:18.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:18.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:18.982+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:18.982+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:40:18.991+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:18.991+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:40:19.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.380 seconds
+[2025-04-15T22:40:49.283+0000] {processor.py:157} INFO - Started process (PID=932) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:49.284+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:40:49.285+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:49.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:49.568+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:40:49.590+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:49.589+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:40:49.601+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:40:49.601+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:40:49.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.449 seconds
+[2025-04-15T22:41:20.068+0000] {processor.py:157} INFO - Started process (PID=966) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:20.069+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:41:20.070+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:20.070+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:20.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:20.339+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:20.339+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:41:20.481+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:20.481+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:41:20.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.431 seconds
+[2025-04-15T22:41:50.669+0000] {processor.py:157} INFO - Started process (PID=1000) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:50.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:41:50.671+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:50.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:50.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:41:51.018+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:51.016+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:41:51.027+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:41:51.027+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:41:51.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.375 seconds
+[2025-04-15T22:42:21.263+0000] {processor.py:157} INFO - Started process (PID=1034) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:21.264+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:42:21.266+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:21.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:21.624+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:21.645+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:21.645+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:42:21.654+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:21.654+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:42:21.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.411 seconds
+[2025-04-15T22:42:52.299+0000] {processor.py:157} INFO - Started process (PID=1068) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:52.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:42:52.301+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:52.301+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:52.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:42:52.669+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:52.669+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:42:52.677+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:42:52.677+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:42:52.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.400 seconds
+[2025-04-15T22:43:22.780+0000] {processor.py:157} INFO - Started process (PID=1102) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:22.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:43:22.782+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:22.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:23.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:23.135+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:23.135+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:43:23.143+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:23.142+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:43:23.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.381 seconds
+[2025-04-15T22:43:53.501+0000] {processor.py:157} INFO - Started process (PID=1136) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:53.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:43:53.503+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:53.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:53.719+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:43:53.738+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:53.738+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:43:53.854+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:43:53.854+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:43:53.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.377 seconds
+[2025-04-15T22:44:24.333+0000] {processor.py:157} INFO - Started process (PID=1170) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:24.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:44:24.335+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:24.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:24.571+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:24.742+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:24.742+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:44:24.753+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:24.753+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:44:24.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.439 seconds
+[2025-04-15T22:44:54.833+0000] {processor.py:157} INFO - Started process (PID=1204) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:54.834+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:44:54.834+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:54.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:55.186+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:44:55.206+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:55.205+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:44:55.217+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:44:55.216+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:44:55.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.404 seconds
+[2025-04-15T22:45:25.421+0000] {processor.py:157} INFO - Started process (PID=1238) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:25.422+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:45:25.423+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:25.423+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:25.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:25.807+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:25.807+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:45:25.816+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:25.816+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:45:25.833+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.415 seconds
+[2025-04-15T22:45:56.594+0000] {processor.py:157} INFO - Started process (PID=1272) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:56.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:45:56.597+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:56.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:56.989+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:45:57.014+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:57.013+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:45:57.029+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:45:57.029+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:45:57.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.475 seconds
+[2025-04-15T22:46:27.707+0000] {processor.py:157} INFO - Started process (PID=1306) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:27.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:46:27.710+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:27.710+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:27.961+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:27.979+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:27.978+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:46:28.093+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:28.093+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:46:28.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.412 seconds
+[2025-04-15T22:46:58.881+0000] {processor.py:157} INFO - Started process (PID=1340) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:58.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:46:58.883+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:58.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:59.141+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:46:59.267+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:59.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:46:59.276+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:46:59.276+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:46:59.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.422 seconds
+[2025-04-15T22:47:29.647+0000] {processor.py:157} INFO - Started process (PID=1374) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:47:29.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:47:29.649+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:47:29.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:47:29.880+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:47:30.090+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:47:30.090+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:47:30.103+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:47:30.103+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:47:30.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.486 seconds
+[2025-04-15T22:48:00.565+0000] {processor.py:157} INFO - Started process (PID=1408) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:00.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:48:00.567+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:00.567+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:00.897+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:00.913+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:00.913+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:48:00.921+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:00.921+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:48:00.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.375 seconds
+[2025-04-15T22:48:31.665+0000] {processor.py:157} INFO - Started process (PID=1442) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:31.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:48:31.666+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:31.666+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:32.003+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:48:32.021+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:32.021+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:48:32.030+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:48:32.030+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:48:32.046+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.384 seconds
+[2025-04-15T22:49:02.804+0000] {processor.py:157} INFO - Started process (PID=1476) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:02.804+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:49:02.805+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:02.805+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:03.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:03.140+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:03.140+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:49:03.150+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:03.149+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:49:03.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T22:49:33.937+0000] {processor.py:157} INFO - Started process (PID=1510) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:33.938+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:49:33.940+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:33.939+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:34.160+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:49:34.179+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:34.179+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:49:34.286+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:49:34.285+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:49:34.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.367 seconds
+[2025-04-15T22:50:04.379+0000] {processor.py:157} INFO - Started process (PID=1542) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:04.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:50:04.381+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:04.381+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:04.635+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:04.778+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:04.777+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:50:04.785+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:04.785+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:50:04.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.425 seconds
+[2025-04-15T22:50:34.972+0000] {processor.py:157} INFO - Started process (PID=1575) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:34.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:50:34.974+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:34.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:35.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:50:35.299+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:35.298+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:50:35.306+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:50:35.306+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:50:35.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.370 seconds
+[2025-04-15T22:51:05.899+0000] {processor.py:157} INFO - Started process (PID=1612) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:05.900+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:51:05.902+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:05.901+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:06.224+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:06.240+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:06.240+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:51:06.248+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:06.248+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:51:06.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.365 seconds
+[2025-04-15T22:51:36.733+0000] {processor.py:157} INFO - Started process (PID=1646) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:36.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:51:36.738+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:36.737+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:37.183+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:51:37.215+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:37.214+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:51:37.226+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:51:37.226+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:51:37.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.529 seconds
+[2025-04-15T22:52:07.447+0000] {processor.py:157} INFO - Started process (PID=1680) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:07.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:52:07.448+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:07.448+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:07.741+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:07.755+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:07.754+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:52:07.763+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:07.763+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:52:07.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.332 seconds
+[2025-04-15T22:52:37.914+0000] {processor.py:157} INFO - Started process (PID=1714) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:37.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:52:37.916+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:37.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:38.121+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:52:38.256+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:38.255+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:52:38.265+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:52:38.265+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:52:38.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.369 seconds
+[2025-04-15T22:53:08.894+0000] {processor.py:157} INFO - Started process (PID=1748) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:08.895+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:53:08.895+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:08.895+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:09.206+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:09.221+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:09.221+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:53:09.229+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:09.229+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:53:09.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.356 seconds
+[2025-04-15T22:53:39.289+0000] {processor.py:157} INFO - Started process (PID=1779) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:39.290+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:53:39.292+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:39.291+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:39.637+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:53:39.654+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:39.654+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:53:39.662+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:53:39.662+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:53:39.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.391 seconds
+[2025-04-15T22:54:10.126+0000] {processor.py:157} INFO - Started process (PID=1816) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:10.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:54:10.130+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:10.130+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:10.469+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:10.484+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:10.484+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:54:10.493+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:10.493+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:54:10.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.390 seconds
+[2025-04-15T22:54:40.652+0000] {processor.py:157} INFO - Started process (PID=1850) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:40.653+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:54:40.654+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:40.654+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:40.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:54:40.963+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:40.963+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:54:40.972+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:54:40.972+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:54:40.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.340 seconds
+[2025-04-15T22:55:11.141+0000] {processor.py:157} INFO - Started process (PID=1884) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:11.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:55:11.142+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:11.142+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:11.358+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:11.479+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:11.478+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:55:11.488+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:11.487+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:55:11.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T22:55:41.794+0000] {processor.py:157} INFO - Started process (PID=1918) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:41.795+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:55:41.796+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:41.796+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:41.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:55:42.134+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:42.134+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:55:42.145+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:55:42.145+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:55:42.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.377 seconds
+[2025-04-15T22:56:12.559+0000] {processor.py:157} INFO - Started process (PID=1952) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:12.560+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:56:12.561+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:12.561+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:12.878+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:12.897+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:12.896+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:56:12.905+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:12.904+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:56:12.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.366 seconds
+[2025-04-15T22:56:43.165+0000] {processor.py:157} INFO - Started process (PID=1986) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:43.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:56:43.167+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:43.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:43.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:56:43.494+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:43.494+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:56:43.502+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:56:43.501+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:56:43.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.360 seconds
+[2025-04-15T22:57:14.168+0000] {processor.py:157} INFO - Started process (PID=2020) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:14.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:57:14.170+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:14.170+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:14.470+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:14.485+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:14.485+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:57:14.493+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:14.493+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:57:14.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.343 seconds
+[2025-04-15T22:57:44.971+0000] {processor.py:157} INFO - Started process (PID=2054) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:44.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:57:44.973+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:44.973+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:45.278+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:57:45.302+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:45.302+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:57:45.312+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:57:45.312+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:57:45.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.360 seconds
+[2025-04-15T22:58:16.082+0000] {processor.py:157} INFO - Started process (PID=2088) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:16.083+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:58:16.084+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:16.084+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:16.282+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:16.398+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:16.397+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:58:16.406+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:16.406+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:58:16.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.341 seconds
+[2025-04-15T22:58:46.485+0000] {processor.py:157} INFO - Started process (PID=2119) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:46.486+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:58:46.487+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:46.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:46.872+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:58:46.901+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:46.901+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:58:46.915+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:58:46.915+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:58:46.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.451 seconds
+[2025-04-15T22:59:17.016+0000] {processor.py:157} INFO - Started process (PID=2153) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:17.018+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:59:17.018+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:17.018+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:17.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:17.423+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:17.423+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:59:17.440+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:17.439+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:59:17.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.457 seconds
+[2025-04-15T22:59:47.987+0000] {processor.py:157} INFO - Started process (PID=2190) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:47.987+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T22:59:47.988+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:47.988+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:48.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T22:59:48.304+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:48.304+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T22:59:48.312+0000] {logging_mixin.py:154} INFO - [2025-04-15T22:59:48.312+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T22:59:48.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.343 seconds
+[2025-04-15T23:00:18.427+0000] {processor.py:157} INFO - Started process (PID=2224) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:18.428+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:00:18.429+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:18.429+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:18.740+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:18.756+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:18.755+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:00:18.766+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:18.765+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:00:18.779+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.354 seconds
+[2025-04-15T23:00:48.857+0000] {processor.py:157} INFO - Started process (PID=2258) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:48.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:00:48.859+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:48.859+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:49.153+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:00:49.168+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:49.168+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:00:49.176+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:00:49.176+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:00:49.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.339 seconds
+[2025-04-15T23:01:19.524+0000] {processor.py:157} INFO - Started process (PID=2292) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:19.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:01:19.526+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:19.526+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:19.804+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:19.819+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:19.819+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:01:19.826+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:19.826+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:01:19.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.317 seconds
+[2025-04-15T23:01:50.041+0000] {processor.py:157} INFO - Started process (PID=2323) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:50.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:01:50.043+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:50.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:50.359+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:01:50.377+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:50.376+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:01:50.385+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:01:50.385+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:01:50.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T23:02:21.103+0000] {processor.py:157} INFO - Started process (PID=2360) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:21.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:02:21.105+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:21.105+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:21.415+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:21.433+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:21.432+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:02:21.440+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:21.440+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:02:21.461+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.360 seconds
+[2025-04-15T23:02:51.640+0000] {processor.py:157} INFO - Started process (PID=2394) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:51.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:02:51.642+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:51.642+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:52.005+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:02:52.023+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:52.022+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:02:52.032+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:02:52.032+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:02:52.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.413 seconds
+[2025-04-15T23:03:22.444+0000] {processor.py:157} INFO - Started process (PID=2428) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:22.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:03:22.446+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:22.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:22.753+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:22.770+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:22.770+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:03:22.781+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:22.780+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:03:22.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T23:03:53.088+0000] {processor.py:157} INFO - Started process (PID=2462) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:53.089+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:03:53.090+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:53.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:53.393+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:03:53.409+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:53.409+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:03:53.417+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:03:53.416+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:03:53.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.346 seconds
+[2025-04-15T23:04:23.831+0000] {processor.py:157} INFO - Started process (PID=2496) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:23.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:04:23.833+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:23.833+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:24.140+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:24.156+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:24.155+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:04:24.165+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:24.165+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:04:24.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.351 seconds
+[2025-04-15T23:04:54.530+0000] {processor.py:157} INFO - Started process (PID=2530) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:54.531+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:04:54.532+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:54.532+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:54.819+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:04:54.835+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:54.834+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:04:54.844+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:04:54.844+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:04:54.871+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.344 seconds
+[2025-04-15T23:05:24.944+0000] {processor.py:157} INFO - Started process (PID=2564) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:24.945+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:05:24.946+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:24.946+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:25.252+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:25.268+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:25.267+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:05:25.279+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:25.279+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:05:25.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.357 seconds
+[2025-04-15T23:05:55.608+0000] {processor.py:157} INFO - Started process (PID=2598) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:55.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:05:55.610+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:55.610+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:55.925+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:05:55.942+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:55.941+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:05:55.951+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:05:55.951+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:05:55.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.361 seconds
+[2025-04-15T23:06:26.058+0000] {processor.py:157} INFO - Started process (PID=2632) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:26.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:06:26.061+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:26.061+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:26.375+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:26.391+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:26.390+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:06:26.399+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:26.399+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:06:26.414+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.358 seconds
+[2025-04-15T23:06:56.552+0000] {processor.py:157} INFO - Started process (PID=2666) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:56.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:06:56.554+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:56.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:56.860+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:06:56.876+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:56.875+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:06:56.886+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:06:56.885+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:06:56.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.357 seconds
+[2025-04-15T23:07:27.244+0000] {processor.py:157} INFO - Started process (PID=2700) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:27.244+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:07:27.245+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:27.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:27.545+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:27.561+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:27.561+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:07:27.569+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:27.569+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:07:27.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.341 seconds
+[2025-04-15T23:07:57.655+0000] {processor.py:157} INFO - Started process (PID=2731) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:57.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:07:57.657+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:57.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:58.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:07:58.030+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:58.029+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:07:58.043+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:07:58.043+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:07:58.069+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.417 seconds
+[2025-04-15T23:08:28.208+0000] {processor.py:157} INFO - Started process (PID=2766) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:28.209+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:08:28.209+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:28.209+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:28.534+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:28.548+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:28.547+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:08:28.556+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:28.556+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:08:28.568+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T23:08:58.915+0000] {processor.py:157} INFO - Started process (PID=2799) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:58.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:08:58.916+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:58.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:59.251+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:08:59.274+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:59.273+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:08:59.284+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:08:59.284+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:08:59.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.391 seconds
+[2025-04-15T23:09:29.987+0000] {processor.py:157} INFO - Started process (PID=2836) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:09:29.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:09:29.989+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:09:29.989+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:09:30.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:09:30.305+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:09:30.304+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:09:30.312+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:09:30.312+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:09:30.325+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.341 seconds
+[2025-04-15T23:10:00.447+0000] {processor.py:157} INFO - Started process (PID=2867) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:00.448+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:10:00.449+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:00.448+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:00.788+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:00.807+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:00.806+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:10:00.816+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:00.816+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:10:00.834+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.390 seconds
+[2025-04-15T23:10:31.140+0000] {processor.py:157} INFO - Started process (PID=2901) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:31.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:10:31.141+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:31.141+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:31.493+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:10:31.512+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:31.511+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:10:31.521+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:10:31.521+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:10:31.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.403 seconds
+[2025-04-15T23:11:01.621+0000] {processor.py:157} INFO - Started process (PID=2935) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:01.622+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:11:01.623+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:01.623+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:01.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:01.965+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:01.965+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:11:01.976+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:01.975+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:11:01.990+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.371 seconds
+[2025-04-15T23:11:32.409+0000] {processor.py:157} INFO - Started process (PID=2969) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:32.410+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:11:32.411+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:32.410+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:32.723+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:11:32.739+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:32.739+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:11:32.748+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:11:32.748+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:11:32.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.358 seconds
+[2025-04-15T23:12:02.849+0000] {processor.py:157} INFO - Started process (PID=3003) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:02.850+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:12:02.851+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:02.850+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:03.244+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:03.267+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:03.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:12:03.279+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:03.278+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:12:03.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.454 seconds
+[2025-04-15T23:12:33.776+0000] {processor.py:157} INFO - Started process (PID=3037) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:33.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:12:33.779+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:33.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:34.091+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:12:34.108+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:34.108+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:12:34.118+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:12:34.118+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:12:34.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.368 seconds
+[2025-04-15T23:13:04.590+0000] {processor.py:157} INFO - Started process (PID=3071) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:04.592+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:13:04.593+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:04.593+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:04.924+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:04.942+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:04.942+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:13:04.950+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:04.950+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:13:04.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.378 seconds
+[2025-04-15T23:13:35.425+0000] {processor.py:157} INFO - Started process (PID=3108) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:35.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:13:35.427+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:35.427+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:35.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:13:35.735+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:35.735+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:13:35.742+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:13:35.742+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:13:35.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.334 seconds
+[2025-04-15T23:14:06.098+0000] {processor.py:157} INFO - Started process (PID=3142) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:06.099+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:14:06.100+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:06.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:06.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:06.414+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:06.414+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:14:06.423+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:06.423+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:14:06.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.342 seconds
+[2025-04-15T23:14:36.477+0000] {processor.py:157} INFO - Started process (PID=3173) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:36.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:14:36.479+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:36.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:36.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:14:36.822+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:36.822+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:14:36.832+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:14:36.831+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:14:36.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.376 seconds
+[2025-04-15T23:15:07.834+0000] {processor.py:157} INFO - Started process (PID=3207) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:07.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:15:07.837+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:07.837+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:08.149+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:08.173+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:08.171+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:15:08.190+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:08.190+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:15:08.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.392 seconds
+[2025-04-15T23:15:38.333+0000] {processor.py:157} INFO - Started process (PID=3241) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:38.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:15:38.334+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:38.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:38.682+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:15:38.697+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:38.696+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:15:38.705+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:15:38.705+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:15:38.719+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.389 seconds
+[2025-04-15T23:16:09.635+0000] {processor.py:157} INFO - Started process (PID=3278) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:09.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:16:09.637+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:09.637+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:09.929+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:09.946+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:09.945+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:16:09.953+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:09.953+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:16:09.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.336 seconds
+[2025-04-15T23:16:40.643+0000] {processor.py:157} INFO - Started process (PID=3309) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:40.644+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:16:40.645+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:40.645+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:40.991+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:16:41.010+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:41.010+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:16:41.020+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:16:41.020+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:16:41.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.394 seconds
+[2025-04-15T23:17:11.237+0000] {processor.py:157} INFO - Started process (PID=3343) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:11.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:17:11.239+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:11.239+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:11.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:11.593+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:11.592+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:17:11.602+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:11.602+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:17:11.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.382 seconds
+[2025-04-15T23:17:42.456+0000] {processor.py:157} INFO - Started process (PID=3377) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:42.457+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:17:42.459+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:42.458+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:42.779+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:17:42.797+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:42.796+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:17:42.814+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:17:42.814+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:17:42.830+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.376 seconds
+[2025-04-15T23:18:13.740+0000] {processor.py:157} INFO - Started process (PID=3411) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:13.741+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:18:13.743+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:13.742+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:14.078+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:14.096+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:14.096+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:18:14.104+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:14.104+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:18:14.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.381 seconds
+[2025-04-15T23:18:45.112+0000] {processor.py:157} INFO - Started process (PID=3445) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:45.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:18:45.114+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:45.114+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:45.500+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:18:45.530+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:45.529+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:18:45.550+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:18:45.550+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:18:45.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.463 seconds
+[2025-04-15T23:19:15.955+0000] {processor.py:157} INFO - Started process (PID=3479) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:15.957+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:19:15.957+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:15.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:16.303+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:16.321+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:16.321+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:19:16.331+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:16.331+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:19:16.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.401 seconds
+[2025-04-15T23:19:46.971+0000] {processor.py:157} INFO - Started process (PID=3513) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:46.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:19:46.974+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:46.973+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:47.329+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:19:47.349+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:47.348+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:19:47.357+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:19:47.357+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:19:47.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.406 seconds
+[2025-04-15T23:20:17.813+0000] {processor.py:157} INFO - Started process (PID=3550) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:17.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:20:17.816+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:17.815+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:18.131+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:18.147+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:18.147+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:20:18.155+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:18.155+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:20:18.172+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.363 seconds
+[2025-04-15T23:20:48.214+0000] {processor.py:157} INFO - Started process (PID=3581) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:48.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:20:48.216+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:48.216+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:48.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:20:48.579+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:48.579+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:20:48.591+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:20:48.591+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:20:48.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.402 seconds
+[2025-04-15T23:21:18.799+0000] {processor.py:157} INFO - Started process (PID=3620) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:18.801+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:21:18.802+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:18.802+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:19.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:19.152+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:19.151+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:21:19.160+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:19.160+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:21:19.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.377 seconds
+[2025-04-15T23:21:49.234+0000] {processor.py:157} INFO - Started process (PID=3654) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:49.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:21:49.236+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:49.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:49.544+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:21:49.559+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:49.558+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:21:49.568+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:21:49.568+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:21:49.588+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.356 seconds
+[2025-04-15T23:22:20.584+0000] {processor.py:157} INFO - Started process (PID=3688) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:20.585+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:22:20.586+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:20.586+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:20.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:20.938+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:20.938+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:22:20.949+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:20.949+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:22:20.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.384 seconds
+[2025-04-15T23:22:51.993+0000] {processor.py:157} INFO - Started process (PID=3722) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:51.994+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:22:51.995+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:51.995+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:52.343+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:22:52.362+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:52.362+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:22:52.373+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:22:52.372+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:22:52.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.398 seconds
+[2025-04-15T23:23:22.986+0000] {processor.py:157} INFO - Started process (PID=3757) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:22.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:23:22.989+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:22.989+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:23.386+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:23.405+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:23.405+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:23:23.416+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:23.416+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:23:23.439+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.456 seconds
+[2025-04-15T23:23:54.105+0000] {processor.py:157} INFO - Started process (PID=3793) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:54.107+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:23:54.107+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:54.107+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:54.418+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:23:54.434+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:54.434+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:23:54.446+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:23:54.446+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:23:54.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.361 seconds
+[2025-04-15T23:24:24.920+0000] {processor.py:157} INFO - Started process (PID=3827) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:24.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:24:24.922+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:24.922+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:25.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:25.249+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:25.249+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:24:25.258+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:25.258+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:24:25.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.358 seconds
+[2025-04-15T23:24:55.599+0000] {processor.py:157} INFO - Started process (PID=3861) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:55.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:24:55.601+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:55.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:55.907+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:24:55.921+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:55.920+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:24:55.929+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:24:55.929+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:24:55.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.347 seconds
+[2025-04-15T23:25:26.274+0000] {processor.py:157} INFO - Started process (PID=3895) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:26.275+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:25:26.275+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:26.275+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:26.575+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:26.594+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:26.594+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:25:26.602+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:26.602+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:25:26.620+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.349 seconds
+[2025-04-15T23:25:56.929+0000] {processor.py:157} INFO - Started process (PID=3929) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:56.930+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:25:56.931+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:56.931+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:57.263+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:25:57.277+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:57.277+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:25:57.285+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:25:57.284+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:25:57.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.372 seconds
+[2025-04-15T23:26:28.075+0000] {processor.py:157} INFO - Started process (PID=3963) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:28.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:26:28.077+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:28.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:28.387+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:28.402+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:28.402+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:26:28.410+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:28.410+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:26:28.423+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.350 seconds
+[2025-04-15T23:26:58.854+0000] {processor.py:157} INFO - Started process (PID=3997) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:58.855+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:26:58.856+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:58.856+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:59.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:26:59.196+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:59.195+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:26:59.204+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:26:59.204+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:26:59.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.372 seconds
+[2025-04-15T23:27:29.601+0000] {processor.py:157} INFO - Started process (PID=4031) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:27:29.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:27:29.603+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:27:29.603+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:27:29.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:27:29.936+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:27:29.935+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:27:29.945+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:27:29.945+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:27:29.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.361 seconds
+[2025-04-15T23:28:00.747+0000] {processor.py:157} INFO - Started process (PID=4065) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:00.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:28:00.749+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:00.749+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:01.086+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:01.103+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:01.103+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:28:01.112+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:01.112+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:28:01.130+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.385 seconds
+[2025-04-15T23:28:31.476+0000] {processor.py:157} INFO - Started process (PID=4099) to work on /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:31.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/test_order_dag.py for tasks to queue
+[2025-04-15T23:28:31.478+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:31.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:31.829+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_orders_csv_dag']) retrieved from /opt/airflow/dags/test_order_dag.py
+[2025-04-15T23:28:31.850+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:31.849+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-15T23:28:31.857+0000] {logging_mixin.py:154} INFO - [2025-04-15T23:28:31.857+0000] {dag.py:3722} INFO - Setting next_dagrun for read_orders_csv_dag to None, run_after=None
+[2025-04-15T23:28:31.870+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/test_order_dag.py took 0.397 seconds
