@@ -10911,3 +10911,276 @@
 [2025-05-03T22:51:51.235+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:51:51.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-05-03T22:51:51.248+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:51:51.247+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
 [2025-05-03T22:51:51.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.282 seconds
+[2025-05-03T22:52:21.482+0000] {processor.py:161} INFO - Started process (PID=17661) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:21.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:52:21.485+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:21.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:21.702+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:21.723+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:21.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:52:21.733+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:21.733+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:52:21.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.273 seconds
+[2025-05-03T22:52:52.024+0000] {processor.py:161} INFO - Started process (PID=17704) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:52.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:52:52.026+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:52.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:52.243+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:52:52.265+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:52.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:52:52.275+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:52:52.275+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:52:52.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.271 seconds
+[2025-05-03T22:53:22.442+0000] {processor.py:161} INFO - Started process (PID=17747) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:22.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:53:22.444+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:22.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:22.650+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:22.669+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:22.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:53:22.678+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:22.678+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:53:22.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.254 seconds
+[2025-05-03T22:53:53.169+0000] {processor.py:161} INFO - Started process (PID=17790) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:53.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:53:53.172+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:53.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:53.456+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:53:53.478+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:53.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:53:53.490+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:53:53.490+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:53:53.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.347 seconds
+[2025-05-03T22:54:23.572+0000] {processor.py:161} INFO - Started process (PID=17830) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:23.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:54:23.575+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:23.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:23.897+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:23.927+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:23.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:54:23.943+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:23.942+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:54:23.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.402 seconds
+[2025-05-03T22:54:54.482+0000] {processor.py:161} INFO - Started process (PID=17873) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:54.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:54:54.484+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:54.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:54.772+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:54:54.817+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:54.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:54:54.834+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:54:54.834+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:54:54.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.385 seconds
+[2025-05-03T22:55:25.728+0000] {processor.py:161} INFO - Started process (PID=17916) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:25.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:55:25.730+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:25.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:26.096+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:26.133+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:26.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:55:26.154+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:26.153+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:55:26.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.458 seconds
+[2025-05-03T22:55:57.096+0000] {processor.py:161} INFO - Started process (PID=17959) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:57.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:55:57.098+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:57.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:57.354+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:55:57.377+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:57.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:55:57.386+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:55:57.386+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:55:57.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.309 seconds
+[2025-05-03T22:56:27.537+0000] {processor.py:161} INFO - Started process (PID=18002) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:27.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:56:27.538+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:27.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:27.768+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:27.788+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:27.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:56:27.798+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:27.798+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:56:27.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.283 seconds
+[2025-05-03T22:56:58.700+0000] {processor.py:161} INFO - Started process (PID=18045) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:58.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:56:58.702+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:58.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:58.955+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:56:58.977+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:58.977+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:56:58.992+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:56:58.992+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:56:59.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.316 seconds
+[2025-05-03T22:57:29.228+0000] {processor.py:161} INFO - Started process (PID=18088) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:57:29.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:57:29.233+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:57:29.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:57:29.662+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:57:29.687+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:57:29.686+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:57:29.700+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:57:29.700+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:57:29.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.508 seconds
+[2025-05-03T22:58:00.382+0000] {processor.py:161} INFO - Started process (PID=18134) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:00.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:58:00.384+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:00.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:00.658+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:00.684+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:00.683+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:58:00.695+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:00.695+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:58:00.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.346 seconds
+[2025-05-03T22:58:31.256+0000] {processor.py:161} INFO - Started process (PID=18174) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:31.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:58:31.258+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:31.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:31.571+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:58:31.598+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:31.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:58:31.613+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:58:31.613+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:58:31.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.384 seconds
+[2025-05-03T22:59:01.988+0000] {processor.py:161} INFO - Started process (PID=18218) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:01.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:59:01.991+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:01.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:02.266+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:02.292+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:02.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:59:02.308+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:02.307+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:59:02.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.348 seconds
+[2025-05-03T22:59:32.600+0000] {processor.py:161} INFO - Started process (PID=18260) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:32.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T22:59:32.602+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:32.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:32.927+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T22:59:32.956+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:32.956+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T22:59:32.973+0000] {logging_mixin.py:188} INFO - [2025-05-03T22:59:32.973+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T22:59:33.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.404 seconds
+[2025-05-03T23:00:03.855+0000] {processor.py:161} INFO - Started process (PID=18303) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:03.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:00:03.857+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:03.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:04.170+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:04.198+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:04.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:00:04.217+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:04.217+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:00:04.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.392 seconds
+[2025-05-03T23:00:34.359+0000] {processor.py:161} INFO - Started process (PID=18346) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:34.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:00:34.360+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:34.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:34.611+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:00:34.634+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:34.634+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:00:34.644+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:00:34.644+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:00:34.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.310 seconds
+[2025-05-03T23:01:05.459+0000] {processor.py:161} INFO - Started process (PID=18389) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:05.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:01:05.461+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:05.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:05.723+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:05.749+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:05.749+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:01:05.760+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:05.760+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:01:05.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.321 seconds
+[2025-05-03T23:01:35.881+0000] {processor.py:161} INFO - Started process (PID=18432) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:35.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:01:35.883+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:35.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:36.111+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:01:36.133+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:36.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:01:36.145+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:01:36.145+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:01:36.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.290 seconds
+[2025-05-03T23:02:06.356+0000] {processor.py:161} INFO - Started process (PID=18475) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:06.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:02:06.358+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:06.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:06.578+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:06.599+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:06.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:02:06.610+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:06.610+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:02:06.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.275 seconds
+[2025-05-03T23:02:36.749+0000] {processor.py:161} INFO - Started process (PID=18519) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:36.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:02:36.752+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:36.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:36.992+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:02:37.017+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:37.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:02:37.029+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:02:37.029+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:02:37.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.305 seconds
+[2025-05-03T23:03:07.892+0000] {processor.py:161} INFO - Started process (PID=18561) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:07.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:03:07.894+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:07.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:08.166+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:08.191+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:08.191+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:03:08.205+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:08.205+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:03:08.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.336 seconds
+[2025-05-03T23:03:39.197+0000] {processor.py:161} INFO - Started process (PID=18604) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:39.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:03:39.201+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:39.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:39.444+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:03:39.468+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:39.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:03:39.479+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:03:39.479+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:03:39.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.300 seconds
+[2025-05-03T23:04:10.404+0000] {processor.py:161} INFO - Started process (PID=18647) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:10.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:04:10.405+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:10.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:10.617+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:10.638+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:10.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:04:10.647+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:10.647+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:04:10.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.263 seconds
+[2025-05-03T23:04:40.757+0000] {processor.py:161} INFO - Started process (PID=18690) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:40.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:04:40.760+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:40.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:41.013+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:04:41.038+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:41.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:04:41.050+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:04:41.050+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:04:41.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.316 seconds
+[2025-05-03T23:05:11.863+0000] {processor.py:161} INFO - Started process (PID=18733) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:11.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:05:11.865+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:11.865+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:12.087+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:12.106+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:12.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:05:12.117+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:12.117+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:05:12.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.276 seconds
+[2025-05-03T23:05:42.364+0000] {processor.py:161} INFO - Started process (PID=18776) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:42.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:05:42.367+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:42.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:42.589+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:05:42.610+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:42.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:05:42.621+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:05:42.621+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:05:42.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.277 seconds
+[2025-05-03T23:06:13.476+0000] {processor.py:161} INFO - Started process (PID=18819) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:13.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:06:13.478+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:13.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:13.692+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:13.712+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:13.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:06:13.723+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:13.723+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:06:13.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.267 seconds
+[2025-05-03T23:06:44.139+0000] {processor.py:161} INFO - Started process (PID=18862) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:44.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:06:44.141+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:44.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:44.358+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:06:44.381+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:44.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:06:44.391+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:06:44.391+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:06:44.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.270 seconds
+[2025-05-03T23:07:15.254+0000] {processor.py:161} INFO - Started process (PID=18905) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:15.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:07:15.256+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:15.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:15.535+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:15.559+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:15.558+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:07:15.571+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:15.571+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:07:15.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.337 seconds
+[2025-05-03T23:07:46.432+0000] {processor.py:161} INFO - Started process (PID=18948) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:46.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:07:46.434+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:46.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:46.666+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:07:46.697+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:46.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:07:46.709+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:07:46.709+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:07:46.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.307 seconds
+[2025-05-03T23:25:03.796+0000] {processor.py:161} INFO - Started process (PID=19014) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:03.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:25:03.800+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:03.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:04.271+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:04.327+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:04.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:25:04.349+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:04.348+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:25:04.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.602 seconds
+[2025-05-03T23:25:34.887+0000] {processor.py:161} INFO - Started process (PID=19057) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:34.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:25:34.891+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:34.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:35.289+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:25:35.315+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:35.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:25:35.333+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:25:35.332+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:25:35.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.481 seconds
+[2025-05-03T23:26:05.687+0000] {processor.py:161} INFO - Started process (PID=19102) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:05.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:26:05.689+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:05.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:05.967+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:05.997+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:05.996+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:26:06.012+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:06.011+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:26:06.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.361 seconds
+[2025-05-03T23:26:36.193+0000] {processor.py:161} INFO - Started process (PID=19150) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:36.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:26:36.195+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:36.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:36.441+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:26:36.464+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:36.463+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:26:36.476+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:26:36.476+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:26:36.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.305 seconds
+[2025-05-03T23:27:07.352+0000] {processor.py:161} INFO - Started process (PID=19193) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:07.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:27:07.354+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:07.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:07.692+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:07.753+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:07.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:27:07.770+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:07.770+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:27:07.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.447 seconds
+[2025-05-03T23:27:38.002+0000] {processor.py:161} INFO - Started process (PID=19236) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:38.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:27:38.005+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:38.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:38.283+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:27:38.321+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:38.321+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:27:38.338+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:27:38.337+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:27:38.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.369 seconds
+[2025-05-03T23:28:08.618+0000] {processor.py:161} INFO - Started process (PID=19279) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:08.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:28:08.620+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:08.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:08.848+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:08.875+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:08.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:28:08.887+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:08.886+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:28:08.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.292 seconds
+[2025-05-03T23:28:39.453+0000] {processor.py:161} INFO - Started process (PID=19322) to work on /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:39.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_orders_dag.py for tasks to queue
+[2025-05-03T23:28:39.458+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:39.456+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:39.706+0000] {processor.py:840} INFO - DAG(s) 'clean_orders_csv_dag' retrieved from /opt/airflow/dags/transform_orders_dag.py
+[2025-05-03T23:28:39.733+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:39.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-03T23:28:39.750+0000] {logging_mixin.py:188} INFO - [2025-05-03T23:28:39.750+0000] {dag.py:3823} INFO - Setting next_dagrun for clean_orders_csv_dag to None, run_after=None
+[2025-05-03T23:28:39.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_orders_dag.py took 0.323 seconds
